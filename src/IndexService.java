@@ -1,8 +1,8 @@
 public class IndexService {
-    public double index(double a, double b) {
+    public double index(double weight, double growth) {
         double indexResult;
 
-        indexResult = (a / (b * b));
+        indexResult = (weight / (growth * growth));
         return indexResult;
     }
 }
